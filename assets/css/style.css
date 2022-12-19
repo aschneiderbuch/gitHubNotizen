@@ -23,13 +23,13 @@ header h1 {
     color: yellowgreen;
 }
 
-article{
+article {
     background-color: yellow;
     display: inline-block;
-width: 250px;
-height: 300px;
-padding-left: 30px;
-font-size: 20px;
+    width: 250px;
+    height: 300px;
+    padding-left: 30px;
+    font-size: 20px;
 }
 
 section {
@@ -40,18 +40,26 @@ section {
     box-shadow: 5px 5px 10px rgb(0, 255, 51);
     display: inline-block;
     margin: 5px;
-    
+
     width: 1 min-content;
 }
 
-section::first-line{
+section::first-line {
     font-size: 20px;
     color: blue;
     font-family: Rubik, sans-serif;
 }
 
-.kacheln{
+section:hover{
+    background-color: gold;
 }
 
-.randleiste{
+#listekachel1Einrichten:hover{
+    #kachel1Einrichten{
+        background-color: brwon;
+    }
 }
+
+.kacheln {}
+
+.randleiste {}
