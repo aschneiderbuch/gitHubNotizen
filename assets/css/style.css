@@ -14,10 +14,47 @@ font-family: Rubik, sans-serif;
 
 */
 
-header h1{
+header h1 {
+    background-color: brown;
     font-family: Rubik, sans-serif;
     font-size: 30px;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
     color: yellowgreen;
+}
+
+article{
+    display: inline-block;
+}
+
+nav{ 
+    background-color: green;
+    width: 20vw;
+}
+
+ul {
+    background-color: yellow;
+    display: inline-block;
+}
+
+li {
+    background-color: red;
+}
+
+nav ul li a {
+    background-color: brown;
+}
+
+section {
+    background-color: blue;
+    display: inline-block;
+    width: 30vw;
+}
+
+.kacheln{
+    margin-top: 100px;
+}
+
+.randleiste{
+    width: 10vw;
 }
