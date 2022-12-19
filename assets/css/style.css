@@ -16,7 +16,13 @@ html{
 font-family: Rubik, sans-serif;
 
 */
-
+main{
+    background-image: url("../img/logo.jpg");
+    background-position: center;
+    background-size: contain;
+    background-color: rgba(56, 186, 95, 0.107);
+    
+}
 header h1 {
     background-color: brown;
     font-family: Rubik, sans-serif;
@@ -36,7 +42,7 @@ article {
 }
 
 section {
-    sbackground-color: blue;
+    background-color: rgba(27, 133, 61, 0.571);
     border: 2px solid rgb(216, 126, 141);
     border-radius: 20px;
     padding: 10px;
