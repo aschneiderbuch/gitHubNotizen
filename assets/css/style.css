@@ -9,6 +9,9 @@
     src: url("../fonts/Rubik/Rubik80sFade-Regular.ttf");
 }
 
+html{
+    scroll-behavior: smooth;
+}
 /* 
 font-family: Rubik, sans-serif;
 
@@ -54,10 +57,10 @@ section:hover{
     background-color: gold;
 }
 
-#listekachel1Einrichten:hover{
-    #kachel1Einrichten{
-        background-color: brwon;
-    }
+section a{
+    display: block;
+    text-align: right;
+    text-decoration: dotted;
 }
 
 .kacheln {}
