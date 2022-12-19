@@ -33,13 +33,22 @@ header h1 {
 }
 
 article {
-    background-color: yellow;
     display: inline-block;
     width: 250px;
     height: 300px;
     padding-left: 30px;
     font-size: 20px;
+    margin-left: 10px;
 }
+article ol li a{
+    color: black;
+    font-size: 25px;
+}
+
+article ol li{
+    font-size: 25px;
+}
+
 
 section {
     background-color: rgba(27, 133, 61, 0.571);
@@ -63,10 +72,21 @@ section:hover{
     background-color: gold;
 }
 
+section p::selection{
+    background-color: yellow;
+    color: rgb(222, 92, 220);
+
+}
+
 section a{
     display: block;
     text-align: right;
     text-decoration: dotted;
+}
+section a:hover{
+    font-size: 30px; 
+    
+    
 }
 
 .kacheln {}
