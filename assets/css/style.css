@@ -27,24 +27,6 @@ article{
     display: inline-block;
 }
 
-nav{ 
-    background-color: green;
-    width: 20vw;
-}
-
-ul {
-    background-color: yellow;
-    display: inline-block;
-}
-
-li {
-    background-color: red;
-}
-
-nav ul li a {
-    background-color: brown;
-}
-
 section {
     background-color: blue;
     display: inline-block;
