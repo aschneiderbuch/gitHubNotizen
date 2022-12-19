@@ -24,19 +24,20 @@ header h1 {
 }
 
 article{
+    background-color: yellow;
     display: inline-block;
+width: 250px;
+height: 700px;
 }
 
 section {
     background-color: blue;
     display: inline-block;
-    width: 30vw;
+    width: 400px;
 }
 
 .kacheln{
-    margin-top: 100px;
 }
 
 .randleiste{
-    width: 10vw;
 }
