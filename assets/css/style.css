@@ -27,13 +27,14 @@ article{
     background-color: yellow;
     display: inline-block;
 width: 250px;
-height: 600px;
+height: 300px;
 }
 
 section {
     background-color: blue;
     display: inline-block;
-    width: 400px;
+    width: 200px;
+    
 }
 
 .kacheln{
