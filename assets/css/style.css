@@ -29,13 +29,25 @@ article{
 width: 250px;
 height: 300px;
 padding-left: 30px;
+font-size: 20px;
 }
 
 section {
-    background-color: blue;
+    sbackground-color: blue;
+    border: 2px solid rgb(216, 126, 141);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 255, 51);
     display: inline-block;
-    width: 200px;
+    margin: 5px;
     
+    width: 1 min-content;
+}
+
+section::first-line{
+    font-size: 20px;
+    color: blue;
+    font-family: Rubik, sans-serif;
 }
 
 .kacheln{
