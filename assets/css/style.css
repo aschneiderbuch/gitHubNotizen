@@ -1,3 +1,4 @@
+/*  */
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +24,7 @@ main{
     background-color: rgba(56, 186, 95, 0.107);
     
 }
-header h1 {
+header>h1 {
     background-color: brown;
     font-family: Rubik, sans-serif;
     font-size: 30px;
@@ -40,12 +41,12 @@ article {
     font-size: 20px;
     margin-left: 10px;
 }
-article ol li a{
+article>ol>li>a{
     color: black;
     font-size: 25px;
 }
 
-article ol li{
+article>ol>li{
     font-size: 25px;
 }
 
@@ -72,18 +73,18 @@ section:hover{
     background-color: gold;
 }
 
-section p::selection{
+section>p::selection{
     background-color: yellow;
     color: rgb(222, 92, 220);
 
 }
 
-section a{
+section>a{
     display: block;
     text-align: right;
     text-decoration: dotted;
 }
-section a:hover{
+section a:hover{            /* * ohne > damit er bei Text bei jedem link größer wird */
     font-size: 30px; 
     
     
@@ -92,3 +93,16 @@ section a:hover{
 .kacheln {}
 
 .randleiste {}
+
+
+#Listenanfang>ol:nth-of-type(2)>li{
+    color: yellow;
+}
+
+#Listenanfang>ol:nth-of-type(2)>li>a{
+    color: yellow;
+}
+
+.kacheln2>p:nth-of-type(1){
+    background-color: yellow;
+}
