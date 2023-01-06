@@ -83,6 +83,7 @@ section>a{
     display: block;
     text-align: right;
     text-decoration: dotted;
+    font-weight: bold;
 }
 section a:hover{            /* * ohne > damit er bei Text bei jedem link größer wird */
     font-size: 30px; 
